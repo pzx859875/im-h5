@@ -1,0 +1,27 @@
+# Installed dependencies and generated output
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+*.log
+
+# Local environments (only the template is versioned)
+.env
+.env.*
+!.env.example
+
+# Local validation stays outside the published application repository
+/tests/
+/vitest.config.ts
+/playwright.config.ts
+/test-results/
+/playwright-report/
+/blob-report/
+/.local-validation/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
